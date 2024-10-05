@@ -102,13 +102,13 @@ body {
         display: block;
         padding-top: 36.5px;
     }
-    .navigation__list--item-top {
+    .navigation__link-top {
         margin-right: 4px;
     }
-    .navigation__list--item-spec {
+    .navigation__link-spec {
         margin-left: 3px;
     }
-    .navigation__list--item-faq {
+    .navigation__link-faq {
         margin-right: 1px;
         padding-bottom: 38px;
     }
@@ -167,7 +167,6 @@ body {
     }
 }
 
-
 @media screen and (min-width: 768px) {
     .navigation__text {
         display: none;
@@ -175,7 +174,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    .navigation__list--item-top {
+    .navigation__link-top {
         display: none;
     }
 }
