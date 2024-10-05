@@ -20,7 +20,181 @@
 
         <!-- ヘッダー -->
         <header class="header">
-            <h1 class="header__logo">
-                <img src="assets/image/logo_01.png" alt="Kirameki Farm" >
-            </h1>
+            <div class="header__contents">
+                <h1>
+                    <picture class="header__logo">
+                        <source srcset="assets/image/logo_01.png" media="(max-width: 767px)"><!-- SP表示 -->
+                        <img src="assets/image/logo_02.png" alt=""><!-- PC表示 -->
+                    </picture>
+                </h1>
+                <button class="hamburger-menu" id="js-hamburger-menu">
+                    <span class="hamburger-menu__bar"></span>
+                    <span class="hamburger-menu__bar"></span>
+                    <span class="hamburger-menu__bar"></span>
+                </button>
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__list--item"><a href="/" class="navigation__link navigation__link-top">トップ</a></li>
+                        <li class="navigation__list--item"><a href="/price" class="navigation__link navigation__link-spec">価格・スペック</a></li>
+                        <li class="navigation__list--item"><a href="/faq" class="navigation__link navigation__link-faq">よくあるご質問</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>
+
+        <!-- カバー -->
+        <div class="cover">
+            <picture class="cover__img">
+                <source srcset="assets/image/cover_03.png" media="(max-width: 767px)"><!-- SP表示 -->
+                <img src="assets/image/cover_04.png" alt=""><!-- PC表示 -->
+            </picture>
+            <h2 class="cover__title-main">価格・スペック</h2>
+        </div>
+
+        <!-- パンくずリスト -->
+
+
+
+        <!-- ギャラリー -->
+        <div class="gallery">
+            <h3 class="gallery__title">ギャラリー</h3>
+            <!-- タイトルバー -->
+            <div class="title__bar">
+                <span class="title__bar-green"></span>
+                <span class="title__bar-white"></span>
+            </div>
+            <ul class="gallery__list">
+                <li class="gallery__list--item">
+                    <img src="assets/image/gallery_01.png" alt="">
+                </li>
+                <li class="gallery__list--item">
+                    <img src="assets/image/gallery_02.png" alt="">
+                </li>
+                <li class="gallery__list--item">
+                    <img src="assets/image/gallery_03.png" alt="">
+                </li>
+            </ul>
+        </div>
+
+        <!-- 特長 -->
+        <div class="feature">
+            <h3 class="feature__title">特長</h3>
+            <!-- タイトルバー -->
+            <div class="title__bar">
+                <span class="title__bar-green"></span>
+                <span class="title__bar-white"></span>
+            </div>
+            <ul class="feature-list">
+                <li class="feature-list__item">
+                    <picture class="feature-list__item-img">
+                        <source srcset="assets/image/feature_07.png" media="(max-width: 767px)"><!-- SP表示 -->
+                        <img src="assets/image/feature_08.png" alt=""><!-- PC表示 -->
+                    </picture>
+                    <p class="feature-list__item-text">自動操縦が可能で、短時間で大量の農作物を監視、収穫、播種、散布などの作業ができます。</p>
+                </li>
+                <li class="feature-list__item">
+                    <picture class="feature-list__item-img">
+                        <source srcset="assets/image/feature_09.png" media="(max-width: 767px)"><!-- SP表示 -->
+                        <img src="assets/image/feature_10.png" alt=""><!-- PC表示 -->
+                    </picture>
+                    <p class="feature-list__item-text">高精度のカメラやセンサーを搭載しており、正確な土壌・作物の情報を収集でき、水や肥料などの資源を適切に配分できます。</p>
+                </li>
+                <li class="feature-list__item">
+                    <picture class="feature-list__item-img">
+                        <source srcset="assets/image/feature_11.png" media="(max-width: 767px)"><!-- SP表示 -->
+                        <img src="assets/image/feature_12.png" alt=""><!-- PC表示 -->
+                    </picture>
+                    <p class="feature-list__item-text">必要な場所にだけ肥料や農薬を散布することができます。これにより、農薬や肥料の過剰使用が抑えられ、環境負荷やコスト削減に繋がります。</p>
+                </li>
+            </ul>
+        </div>
+
+        <!-- メーカー希望小売価格 -->
+        <div class="price">
+            <h3 class="price__title">メーカー希望小売価格</h3>
+            <!-- タイトルバー -->
+            <div class="title__bar">
+                <span class="title__bar-green"></span>
+                <span class="title__bar-white"></span>
+            </div>
+            <p class="price__text">¥550,000（税込）</p>
+        </div>
+
+        <!-- スペック -->
+        <div class="spec">
+            <h3 class="spec__title">スペック</h3>
+            <!-- タイトルバー -->
+            <div class="title__bar">
+                <span class="title__bar-green"></span>
+                <span class="title__bar-white"></span>
+            </div>
+            <div class="spec__title-sub">spec__title</div>
+            <table>
+                <tr>
+                    <th>ドローン名</th>
+                    <td>アグリ・ファルコン</td>
+                </tr>
+                <tr>
+                    <th>製品番号</th>
+                    <td>AGF-100</td>
+                </tr>
+                <tr>
+                    <th>飛行時間</th>
+                    <td>60 分</td>
+                </tr>
+                <tr>
+                    <th>最大積載量</th>
+                    <td>5 kg</td>
+                </tr>
+                <tr>
+                    <th>操作距離</th>
+                    <td>3 km</td>
+                </tr>
+                <tr>
+                    <th>機体重量</th>
+                    <td>8 kg</td>
+                </tr>
+                <tr>
+                    <th>機体寸法</th>
+                    <td>150 x 150 x 40 cm</td>
+                </tr>
+                <tr>
+                    <th>機能・特徴</th>
+                    <td>自動操縦、植物生育モニタリング、農薬散布</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- お問い合わせ -->
+        <div class="contact">
+            <h3 class="contact__title">お問い合わせ</h3>
+            <!-- タイトルバー -->
+            <div class="title__bar">
+                <span class="title__bar-green"></span>
+                <span class="title__bar-white"></span>
+            </div>
+            <div class="contact__box">
+                <picture class="fcontact__box-img">
+                    <source srcset="assets/image/fcontact_01.png" media="(max-width: 767px)"><!-- SP表示 -->
+                    <img src="assets/image/fcontact_02.png" alt=""><!-- PC表示 -->
+                </picture>
+                <div class="contact__btn">
+                    <a class="contact__btn-link" href="/contact" role="button">お問い合わせ</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- フッター -->
+        <footer>
+            <div class="footer__nav">
+                <a href="/price" class="footer__link">価格・スペック</a>
+                <span class="footer__nav-bar"></span>
+                <a href="/faq" class="footer__link">よくあるご質問</a>
+            </div>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="assets/script/common.js"></script>
+        <script src="assets/script/top.js"></script>
+    </body>
+</html>
