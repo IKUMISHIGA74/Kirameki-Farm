@@ -47,25 +47,25 @@
             <div class="cover__title">
                 <h2 class="cover__title-main">持続可能な農業を目指す</h2>
                 <div class="cover__title-sub">キラメキファームは革新的デザインの農業機器で未来の農業を実現。ビッグデータ・自動運転ロボット・リジェネラティブ農業で環境に優しい効率化を目指す。</div>
+                <picture class="cover__img">
+                    <source srcset="assets/image/cover_01.png" media="(max-width: 767px)"><!-- SP表示 -->
+                    <img src="assets/image/cover_02.png" alt=""><!-- PC表示 -->
+                </picture>
             </div>
-            <picture class="cover__img">
-                <source srcset="assets/image/cover_01.png" media="(max-width: 767px)"><!-- SP表示 -->
-                <img src="assets/image/cover_02.png" alt=""><!-- PC表示 -->
-            </picture>
         </div>
 
         <!-- 私たちについて -->
         <div class="about">
             <h3 class="about__title"><span class="about__title-sub">About Us</span>私たちについて</h3>
             <div class="about__contents">
-                <div class="about__contents-text">
-                    <div class="about__contents-text-main">キラメキファームは、これからの農業を次世代の子どもたちに残すために創設されたイノベーションカンパニーです。</div>
-                    <div class="about__contents-text-sub">キラメキファームは革新的デザインと最新技術を活用した農業機器メーカーです。未来の農業を実現するために、ビッグデータを駆使して省エネルギー・効率化を実現し、自動運転技術を搭載したロボットで一年中稼働することができる機器を提供します。リジェネラティブ農業を実現する技術を用いて、持続可能な農業システムをサポートします。私たちの社是は、次世代の子供たちに豊かな地球環境を残すこと。イノベーションを起こすことで農業に新たな価値を生み出し、地球環境保全に貢献することを目指しています。</div>
-                </div>
                 <picture class="about__contents-img">
                     <source srcset="assets/image/about_01.png" media="(max-width: 767px)"><!-- SP表示 -->
                     <img src="assets/image/about_02.png" alt=""><!-- PC表示 -->
                 </picture>
+                <div class="about__contents-text">
+                    <div class="about__contents-text-main">キラメキファームは、これからの農業を次世代の子どもたちに残すために創設されたイノベーションカンパニーです。</div>
+                    <div class="about__contents-text-sub">キラメキファームは革新的デザインと最新技術を活用した農業機器メーカーです。未来の農業を実現するために、ビッグデータを駆使して省エネルギー・効率化を実現し、自動運転技術を搭載したロボットで一年中稼働することができる機器を提供します。リジェネラティブ農業を実現する技術を用いて、持続可能な農業システムをサポートします。私たちの社是は、次世代の子供たちに豊かな地球環境を残すこと。イノベーションを起こすことで農業に新たな価値を生み出し、地球環境保全に貢献することを目指しています。</div>
+                </div>
             </div>
         </div>
 
@@ -104,17 +104,17 @@
                 <ul class="service__contents-first">
                     <li class="service__contents-first-item">
                         <img class="service__contents-first-img" src="assets/image/service_01.png" alt="">
-                        <div class="service__contents-first-text">エネルギーセイバー農業ドローン</div>
+                        <div class="service__contents-first-text">エネルギーセイバー<span class="service__contents-first-turn">農業ドローン</span></div>
                     </li>
                     <li class="service__contents-first-item">
                         <img class="service__contents-first-img" src="assets/image/service_02.png" alt="">
-                        <div class="service__contents-first-text">プログレッシブハーベストボット</div>
+                        <div class="service__contents-first-text">プログレッシブ<span class="service__contents-first-turn">ハーベストボット</span></div>
                     </li>
                 </ul>
                 <ul class="service__contents-second">
                     <li class="service__contents-second-item">
                         <img class="service__contents-second-img" src="assets/image/service_03.png" alt="">
-                        <div class="service__contents-second-text">フューチャーファームマスター</div>
+                        <div class="service__contents-second-text">フューチャーファーム<span class="service__contents-second-turn">マスター</span></div>
                     </li>
                     <li class="service__contents-second-item">
                         <img class="service__contents-second-img" src="assets/image/service_04.png" alt="">
@@ -161,37 +161,56 @@
             <h3 class="news__title"><span class="news__title-sub">News</span>お知らせ</h3>
             <ul class="news__contents">
                 <li class="news__contents-item">
-                    <time class="news__contents-item-date">2023.05.15</time>
-                    <div class="news__contents-item-box">お知らせ</div>
+                    <span class="news__contents-item-bar"></span>
+                    <div class="news__contents-item-list">
+                        <time class="news__contents-item-date">2023.05.15</time>
+                        <div class="news__contents-item-box">お知らせ</div>
+                    </div>
                     <div class="news__contents-item-text">都心で発見！キラメキファームの屋上畑で緑のオアシスが広がる</div>
                 </li>
                 <li class="news__contents-item">
-                    <time class="news__contents-item-date">2023.04.05</time>
-                    <div class="news__contents-item-box">ニュースリリース</div>
+                    <span class="news__contents-item-bar"></span>
+                    <div class="news__contents-item-list">
+                        <time class="news__contents-item-date">2023.04.05</time>
+                        <div class="news__contents-item-box">ニュースリリース</div>
+                    </div>
                     <div class="news__contents-item-text">食の安全を守る！キラメキファーム、農産物の品質管理に力を入れる</div>
                 </li>
                 <li class="news__contents-item">
-                    <time class="news__contents-item-date">2023.03.12</time>
-                    <div class="news__contents-item-box">ニュースリリース</div>
+                    <span class="news__contents-item-bar"></span>
+                    <div class="news__contents-item-list">
+                        <time class="news__contents-item-date">2023.03.12</time>
+                        <div class="news__contents-item-box">ニュースリリース</div>
+                    </div>
                     <div class="news__contents-item-text">害虫撃退！キラメキファームの自然環境に優しい取り組み</div>
                 </li>
                 <li class="news__contents-item">
-                    <time class="news__contents-item-date">2023.02.01</time>
-                    <div class="news__contents-item-box">お知らせ</div>
+                    <span class="news__contents-item-bar"></span>
+                    <div class="news__contents-item-list">
+                        <time class="news__contents-item-date">2023.02.01</time>
+                        <div class="news__contents-item-box">お知らせ</div>
+                    </div>
                     <div class="news__contents-item-text">キラメキファーム×最新ドローン技術 目覚ましい成果発表</div>
                 </li>
                 <li class="news__contents-item">
-                    <time class="news__contents-item-date">2023.01.25</time>
-                    <div class="news__contents-item-box">ニュースリリース</div>
+                    <span class="news__contents-item-bar"></span>
+                    <div class="news__contents-item-list">
+                        <time class="news__contents-item-date">2023.01.25</time>
+                        <div class="news__contents-item-box">ニュースリリース</div>
+                    </div>
                     <div class="news__contents-item-text">キラメキファーム、無農薬野菜で子供たちの未来を支える</div>
                 </li>
                 <li class="news__contents-item">
-                    <time class="news__contents-item-date">2023.01.08</time>
-                    <div class="news__contents-item-box">お知らせ</div>
+                    <span class="news__contents-item-bar"></span>
+                    <div class="news__contents-item-list">
+                        <time class="news__contents-item-date">2023.01.08</time>
+                        <div class="news__contents-item-box">お知らせ</div>
+                    </div>
                     <div class="news__contents-item-text">キラメキ農法で収穫量2倍！革新的な農業技術が話題</div>
                 </li>
             </ul>
             <div class="news__btn">
+                <span class="news__btn-bar"></span>
                 <a class="news__btn-link" href="/news" role="button">ニュース一覧へ</a>
             </div>
         </div>
