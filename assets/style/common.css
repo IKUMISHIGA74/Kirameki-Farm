@@ -114,6 +114,30 @@ body {
     }
 }
 
+/* フッター */
+@media screen and (max-width: 767px) {
+    footer {
+        width: 100%;
+        background-color: #168352;
+    }
+    .footer__nav {
+        display: flex;
+        justify-content: center;
+        gap: 16px;
+    }
+    .footer__link {
+        color: #FFFFFF;
+        font-size: 1.3em;
+        padding: 27px 0 28px 0;
+    }
+    .footer__nav-bar {
+        height: 20px;
+        display:inline-block;
+        border-left: 1px solid #FFFFFF;
+        transform: translateY(24px);
+    }
+}
+
 
 
 
