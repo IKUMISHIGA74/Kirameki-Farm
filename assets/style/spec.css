@@ -527,14 +527,9 @@ body {
     .feature-list__item img {
         width: 220px;
         height: 135px;
-        margin-bottom: 8px;
     }
     .feature-list__item-text {
         max-width: 220px;
-        letter-spacing: .005em;
-        line-height: 1.75;
-        font-size: 1.6em;
-        font-weight: bold;
     }
 }
 
