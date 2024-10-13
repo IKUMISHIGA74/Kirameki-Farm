@@ -15,4 +15,3 @@ $('.faq__list').each(function() {
     });
 });
 
-
